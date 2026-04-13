@@ -1,0 +1,72 @@
+.panel-puntaje {
+  background: linear-gradient(to bottom, var(--degradado-inicio), var(--degradado-fin));
+  border-radius: 24px;
+  padding: 2.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: var(--blanco);
+  flex: 1;
+}
+
+.panel-puntaje__titulo {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--lavanda);
+}
+
+.panel-puntaje__circulo {
+  background: linear-gradient(to bottom, var(--circulo-inicio), var(--circulo-fin));
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel-puntaje__numero {
+  font-size: 72px;
+  font-weight: 800;
+  color: var(--blanco);
+  line-height: 1;
+}
+
+.panel-puntaje__maximo {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--lavanda);
+}
+
+.panel-puntaje__nivel {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--blanco);
+  margin-top: 0.5rem;
+}
+
+.panel-puntaje__descripcion {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--lavanda);
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .panel-puntaje {
+    border-radius: 0 0 24px 24px;
+    padding: 2rem 2.5rem 2.5rem;
+  }
+
+  .panel-puntaje__circulo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .panel-puntaje__numero {
+    font-size: 56px;
+  }
+}
