@@ -1,7 +1,7 @@
-.tarjeta-puntaje {
+.result-card {
   display: flex;
   flex-direction: row;
-  background: var(--blanco);
+  background: var(--white);
   border-radius: 32px;
   box-shadow: 10px 30px 60px hsla(224, 82%, 58%, 0.2);
   overflow: hidden;
@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 600px) {
-  .tarjeta-puntaje {
+  .result-card {
     flex-direction: column;
     border-radius: 0;
     max-width: 375px;

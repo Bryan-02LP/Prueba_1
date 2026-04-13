@@ -1,0 +1,72 @@
+.resultado-panel {
+  background: linear-gradient(to bottom, var(--grad-top), var(--grad-bottom));
+  border-radius: 24px;
+  padding: 2.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: var(--white);
+  flex: 1;
+}
+
+.resultado-titulo {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--light-lavender);
+}
+
+.resultado-circulo {
+  background: linear-gradient(to bottom, var(--circle-top), var(--circle-bottom));
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.resultado-puntaje {
+  font-size: 72px;
+  font-weight: 800;
+  color: var(--white);
+  line-height: 1;
+}
+
+.resultado-total {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--light-lavender);
+}
+
+.resultado-calificacion {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--white);
+  margin-top: 0.5rem;
+}
+
+.resultado-descripcion {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--light-lavender);
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .resultado-panel {
+    border-radius: 0 0 24px 24px;
+    padding: 2rem 2.5rem 2.5rem;
+  }
+
+  .resultado-circulo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .resultado-puntaje {
+    font-size: 56px;
+  }
+}

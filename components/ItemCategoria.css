@@ -1,0 +1,29 @@
+.fila-resumen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 18px;
+  border-radius: 12px;
+}
+
+.fila-resumen-izquierda {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.fila-categoria {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.fila-puntaje {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--dark-gray-blue);
+}
+
+.fila-puntaje strong {
+  font-weight: 800;
+  color: var(--dark-gray-blue);
+}
